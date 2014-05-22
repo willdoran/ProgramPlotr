@@ -10,7 +10,6 @@ Check out the [Pirate Plotr Render here](http://auremoser.github.io/pirateplotr/
 This simple sortable chart for viewing projects and tracking them on a timeline is primarily for coordination between RNI and the Rockefeller Foundation, including the 100 Resilient Cities team. It is useful for a quick global view of what's going on when and how the milestones/expectations/resourcing need to be managed.
 
 ### how to
-1. ~~Edit the csv in the /data folder to your desired plotting verbage.~~[1]
 1. Edit data in the Google Spreadsheet [here](https://docs.google.com/a/ushahidi.com/spreadsheets/d/1C-s16NaQBkzZSHRl1SvFBjnvJ03GQ74yJ2-Bf5MW1u0/edit#gid=0).
 2. Spreadsheet will update in the chart on a semi-frequent basis (depends on google, usually you can refresh the [RNI Schedule Plotr](XXXXXXXXX) every 5 minutes and it will show your changes); all changes will be checked and QAuto-integrated for Monday morning calls.
 3. View and Sort the chart! [Check the RNI Schedule Plotr Render page.](XXXXXXXX)  
