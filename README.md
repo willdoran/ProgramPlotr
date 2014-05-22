@@ -1,8 +1,8 @@
-pirateplotr
+RNIplotr
 ===========
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/auremoser/pirateplotr/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
-Ushahidi viz for pirates to plot projects and milestones.  
+RNI viz for Shadrock and Rockefeller to plot projects and milestones. Lovingly forked from Aure.
 
 Check out the [Pirate Plotr Render here](http://auremoser.github.io/pirateplotr/).
 Video [tutorial here](http://vimeo.com/auremoser/plotrguide) pw: plotrpals.
