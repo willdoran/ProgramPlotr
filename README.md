@@ -5,7 +5,6 @@ RNIplotr
 RNI viz for Shadrock and Rockefeller to plot projects and milestones. Lovingly forked from Aure.
 
 Check out the [Pirate Plotr Render here](http://auremoser.github.io/pirateplotr/).
-Video [tutorial here](http://vimeo.com/auremoser/plotrguide) pw: plotrpals.
 
 ### about
 This is a simple sortable chart for viewing projects and tracking them on a timeline. 
