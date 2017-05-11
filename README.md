@@ -1,49 +1,37 @@
-RNI Schedule Plotr
+Ushahidi Programs Plotr
 ===========
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/auremoser/pirateplotr/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
-This is a visualization of projects and milestones for RNI.
-
-Check out the [Pirate Plotr Render here](http://auremoser.github.io/pirateplotr/).
+This is a visualization tool for looking at key deliverables and milestones milestones for Ushahidi programs. You can see the [Plotr visualization here](http://?????) or [add dates and milesontes here](https://docs.google.com/spreadsheets/d/1NXG2znwFFdbyK83wHmN00AEp_t_OMAoRkShicl_y7Wk/edit#gid=0). See below for more information about how to interpret the visualization or enter data.
 
 ### about
-This simple sortable chart for viewing projects and tracking them on a timeline is primarily for coordination between RNI and the Rockefeller Foundation, including the 100 Resilient Cities team. It is useful for a quick global view of what's going on when and how the milestones/expectations/resourcing need to be managed.
+This is simple sortable chart for viewing and tracking programmatic deliverables and milestones on a timeline. It is primarily for coordination among Ushahidi programs: especially around shared goals such as trainings, volunteer engagement, and product releases. It is useful for a quick global view of what's going on when and how the milestones/expectations/resourcing need to be managed. This was originally developed by Aurelia Moser ([original repo here](https://github.com/auremoser/pirateplotr)) and I've adopted it for programmatic use.  
 
 ### how to
-1. Edit data in the Google Spreadsheet [here](https://docs.google.com/a/ushahidi.com/spreadsheets/d/1C-s16NaQBkzZSHRl1SvFBjnvJ03GQ74yJ2-Bf5MW1u0/edit#gid=0).
-2. Spreadsheet will update in the chart on a semi-frequent basis (depends on google, usually you can refresh the [RNI Schedule Plotr](XXXXXXXXX) every 5 minutes and it will show your changes); all changes will be checked and QAuto-integrated for Monday morning calls.
-3. View and Sort the chart! [Check the RNI Schedule Plotr Render page.](XXXXXXXX)  
+1. Edit data in the Google Spreadsheet [here](https://docs.google.com/spreadsheets/d/1NXG2znwFFdbyK83wHmN00AEp_t_OMAoRkShicl_y7Wk/edit#gid=0). See the key below for what information to enter in which columns. 
+2. Spreadsheet will update in the chart on a semi-frequent basis, which depends on google. Usually you can refresh the [Plotr visualization](http://?????) every 5 minutes and it will show your changes.
+3. View and Sort the chart! [Plotr visualization here](http://?????)  
 
-![Chart](https://raw2.github.com/auremoser/images/master/plotr.png) 
+![Chart](https://?????) 
 
 ### data
 Data csv looks like this:
 
-![data.csv](https://raw2.github.com/auremoser/images/master/plotr-sheet.png)
+![data.csv](https://?????)
 
-Headers are static, but all values are editable in the data.csv file.
+Headers in the spreadsheet are static, but all values are editable in the data.csv file.
 
 deliverable	| priority	| start_date	| end_date 	| team | type
 :---:	| :----: 	| :--------: 	| :------: 	| :----: | :----:
-project1 | value1 	| date1 		| date2 	| [V3/CrisisNet/...] | external
-project2 | value2 	| date1 		| date2 	| [V3/CrisisNet/...] | core
+project1 | value1 	| date1 		| date2 	| [DREAMS/Uchaguzi/...] | external
+project2 | value2 	| date1 		| date2 	| [DREAMS/Uchaguzi/...] | core
 
 #### key
-* **deliverable** is project name
-* **priority** is an arbitrary weight (price point? resources?)[2]
-* **dates** are the start and end date of a project
-* **team** is the name of the team responsible for the deliverable
-* **type** is one of 4 categories for filtering purposes (core, external, ops, milestone)[3]
+* **deliverable** is _brief_ description of the deliverable.
+* **priority** is an arbitrary weight. This is a placeholder that was originally intended to be replaced by some numerical value that we might want to priotize by, such as cost, price, or resources. We can figure out how to use this... or leave it blank!
+* **dates** are the start and end date of a project.
+* **team** is the name of the team responsible for the deliverable. I've populated the spreadsheet with a drop-down menu for: Uchaguzi, DREAMS, COMRADES, and Platform.
+* **type** is one of 4 categories for filtering purposes (core, external, ops, milestone). I don't honestly remember what these different categories meant! So I'd be happy to change them. Right now, I'm using "core" as an internal deadline while "external" is something public facing. Milestones are vertical plum lines on the chart. You can draw a plum line, as opposed to a bar, by entering a deliverable name, start_date and type of project as "milestone"). Check the csv for examples of this.
 
-This is spreadsheet-powered because that's a maintainable format for all contributors; easily editable/updatable.
-
-Yays thanks for reading! Shoot me questions if you have any: aurelia@ushahidi.com.
-
-[1]: Previously, I manually updated the /data/data.csv file and then populated that data in the chart. Now the chart is GDoc powered, to enable easier editing for all pirates in the party. :)
-
-[2]: We can decide what numerical value to prioritize by, I just wanted to log this as a sortable placeholder for future values we might want to track.
-
-[3]: Milestones are vertical plum lines on the chart. You can draw a plum line, as opposed to a bar, by entering a deliverable name, start_date and type of project as "milestone"). Check the csv for examples of this.
+Give me a shout if you have any further questions!
 
 
 
