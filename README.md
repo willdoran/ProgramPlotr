@@ -24,7 +24,7 @@ deliverable	| priority	| start_date	| end_date 	| team | type
 project1 | value1 	| date1 		| date2 	| [DREAMS/Uchaguzi/...] | external
 project2 | value2 	| date1 		| date2 	| [DREAMS/Uchaguzi/...] | core
 
-#### key
+#### Key
 * **deliverable** is _brief_ description of the deliverable.
 * **priority** is an arbitrary weight. This is a placeholder that was originally intended to be replaced by some numerical value that we might want to priotize by, such as cost, price, or resources. We can figure out how to use this... or leave it blank!
 * **dates** are the start and end date of a project.
