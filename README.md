@@ -29,7 +29,11 @@ project2 | value2 	| date1 		| date2 	| [DREAMS/Uchaguzi/...] | core
 * **priority** is an arbitrary weight. This is a placeholder that was originally intended to be replaced by some numerical value that we might want to priotize by, such as cost, price, or resources. We can figure out how to use this... or leave it blank!
 * **dates** are the start and end date of a project.
 * **team** is the name of the team responsible for the deliverable. I've populated the spreadsheet with a drop-down menu for: Uchaguzi, DREAMS, COMRADES, and Platform.
-* **type** is one of 4 categories for filtering purposes (core, external, ops, milestone). I don't honestly remember what these different categories meant! So I'd be happy to change them. Right now, I'm using "core" as an internal deadline while "external" is something public facing. **Milestones are vertical plum lines on the chart**. You can draw a plum line, as opposed to a bar, by entering a deliverable name, start_date and type of project as "milestone". Check the csv for examples of this.
+* **type** is one of 4 categories for filtering purposes. I don't honestly remember what these different categories meant at the time they were created so I'd be happy to change them. Right now, I'm using
+  * "core" as an internal deadline;
+  * "external" is a public facing deadline;
+  * "ops" - I'm not using this right now. 
+  * "milestone" creates a vertical plum lines on the chart as opposed to a bar that shows something happening over time. You create these by entering a `deliverable` name, a `start_date`, and then listing the `type` as "milestone". Check the csv for examples of this.
 
 Give me a shout if you have any further questions!
 
