@@ -1,6 +1,6 @@
 Ushahidi Programs Plotr
 ===========
-This is a visualization tool for looking at key deliverables and milestones milestones for Ushahidi programs. You can see the [Plotr visualization here](http://?????) or [add dates and milesontes here](https://docs.google.com/spreadsheets/d/1NXG2znwFFdbyK83wHmN00AEp_t_OMAoRkShicl_y7Wk/edit#gid=0). See below for more information about how to interpret the visualization or enter data.
+This is a visualization tool for looking at key deliverables and milestones milestones for Ushahidi programs. You can see the [Plotr visualization here](http://?????) or [add dates and milestones here](https://docs.google.com/spreadsheets/d/1NXG2znwFFdbyK83wHmN00AEp_t_OMAoRkShicl_y7Wk/edit#gid=0). See below for more information about how to interpret the visualization or enter data.
 
 ### About
 This is simple sortable chart for viewing and tracking programmatic deliverables and milestones on a timeline. It is primarily for coordination among Ushahidi programs: especially around shared goals such as trainings, volunteer engagement, and product releases. It is useful for a quick global view of what's going on when and how the milestones/expectations/resourcing need to be managed. This was originally developed by Aurelia Moser ([original repo here](https://github.com/auremoser/pirateplotr)) and I've adopted it for programmatic use.  
@@ -28,14 +28,14 @@ project2 | value2 	| date1 		| date2 	| [DREAMS/Uchaguzi/...] | core
 * **deliverable** is _brief_ description of the deliverable.
 * **priority** is an arbitrary weight. This is a placeholder that was originally intended to be replaced by some numerical value that we might want to priotize by, such as cost, price, or resources. We can figure out how to use this... or leave it blank!
 * **dates** are the start and end date of a project.
-* **team** is the name of the team responsible for the deliverable. I've populated the spreadsheet with a drop-down menu for: Uchaguzi, DREAMS, COMRADES, and Platform.
-* **type** is one of 4 categories for filtering purposes. I don't honestly remember what these different categories meant at the time they were created so I'd be happy to change them. Right now, I'm using
+* **team** is the name of the team responsible for the deliverable. I've populated the spreadsheet with a drop-down menu for: Platform, RollCall, Uchaguzi, COMRADES, DREAMS, MAVC, Sup. & Engage., and Engineering. I suppose we could put _all_ circles on this but the goal is really to use this for better programmatic coordination. Because that means implementing our tools and some engagement, I've included the relevant tech circles as well.
+* **type** is one of 4 categories for filtering purposes. I don't honestly remember what these different categories meant at the time they were created so I'd be happy to change them. Right now, I'm using:
   * "core" as an internal deadline;
   * "external" is a public facing deadline;
   * "ops" - I'm not using this right now. 
   * "milestone" creates a vertical plum lines on the chart as opposed to a bar that shows something happening over time. You create these by entering a `deliverable` name, a `start_date`, and then listing the `type` as "milestone". Check the csv for examples of this.
 
-Give me a shout if you have any further questions!
+Give me a shout if you have any further questions and feel free to edit the Plotr: we all own it!
 
 
 

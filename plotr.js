@@ -7,7 +7,7 @@
 	var canvas_width = d3.select('#chart-canvas').node().offsetWidth;
 
 	var teamColorScale = d3.scale.ordinal()
-		.domain(['BRCK', 'CrisisNet', 'Crowdmap', 'External Projects', 'MAVC', 'Operations', 'RRI', 'V3'])
+		.domain(['Platform', 'RollCall', 'Engineering', 'COMRADES', 'MAVC', 'DREAMS', 'UCHAGUZI', 'Sup. & Engage.'])
 		//.range(['#e45f56',' #d75c37','#fff568','#a3d39c','#4aaaa5','#4aaaa5','#334455','#260126'])
 		.range(['#d53e4f', '#f46d43', '#fdae61', '#fee08b', '#ffffbf', '#abdda4', '#66c2a5', '#3288bd']);
 
@@ -40,7 +40,7 @@
 	 * LOAD AND TIDY DATA
 	 */
 	 // Data comes in as a simple updateable csv, so names entities, values can update
-	 // Gspreadsheet for CSV is here: https://docs.google.com/a/ushahidi.com/spreadsheet/ccc?key=0AlR1bR7sxqL-dFhnYWRNUm81WWNUai0ybjZRcWwyNXc&usp=sharing
+	 // Gspreadsheet for CSV is here: https://docs.google.com/spreadsheets/d/1NXG2znwFFdbyK83wHmN00AEp_t_OMAoRkShicl_y7Wk/edit#gid=0
 	 
 
 	 // Switch to lowercase Y in the d3.time.format if using an excel csv, it's uppercase because google spreadsheets formats it's dates differently
@@ -290,7 +290,7 @@
 	 * var proxy = 'http://www.enjoy-mondays.com/assets/services/proxy.php?url=';
 	 */
 
-	var csvURL = 'https://docs.google.com/spreadsheet/pub?key=0AlR1bR7sxqL-dFhnYWRNUm81WWNUai0ybjZRcWwyNXc&single=true&gid=0&output=csv';
+	var csvURL = 'https://docs.google.com/a/ushahidi.com/spreadsheets/d/1NXG2znwFFdbyK83wHmN00AEp_t_OMAoRkShicl_y7Wk/pub?output=csv';
 	
 	d3.csv(csvURL, function(csv) {
 		tidyData(csv);
