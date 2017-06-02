@@ -175,7 +175,87 @@
 
 	</style>
 </head>
-<!--THIS IS WHERE TO ADD CUT BODY-->
+<body>
+		<div id="button-container" class="row header">
+			<!-- TITLE BAR -->
+			<header class="large-6 columns hide-for-small-only">
+				<h1><b>PIRATE PLOTR 2014</b></h1>
+			</header>
+			<hr>
+			<!-- SORTER/FILTER/COLOR BUTTONS -->
+			<div class="button-block large-5 columns">
+				<h6>SORT BY</h6>
+				<ul id="sorter" class="button-group radius">
+					<li class="button tiny alert" data-sorter="deliverable">Deliverable</li>
+					<li class="button tiny alert" data-sorter="start_date">Start date</li>
+					<li class="button tiny alert" data-sorter="end_date">End date</li>
+					<li class="button tiny alert" data-sorter="team">Team</li>
+				</ul>
+			</div>
+			<div class="button-block large-4 columns">
+				<h6>FILTER BY</h6>
+				<ul id="filter" class="button-group radius">
+					<li class="button tiny alert" data-filter="">All</li>
+					<li class="button tiny alert" data-filter="core">Core</li>
+					<li class="button tiny alert" data-filter="external">External</li>
+					<li class="button tiny alert" data-filter="ops">Ops</li>
+				</ul>
+			</div>
+			<div class="button-block last large-3 columns">
+				<h6>COLOR BY</h6>
+				<ul id="color" class="button-group radius">
+					<li class="button tiny alert" data-color="all">All</li>
+					<li class="button tiny alert" data-color="priority">Priority</li>
+					<li class="button tiny alert" data-color="team">Team</li>
+				</ul>
+			</div>
+		<hr>
+		</div>
+		<!-- LEGEND - PRIORITY -->
+		<div id="legend" class="legend-style">
+			<div class="legend-title">Priority Scale</div>
+			<div class="legend-scale">
+				<ul class="legend-labels">
+					<li><span style="background:#ffffb2;"></span>Low</li>
+					<li><span style="background:#fed976;"></span></li>
+					<li><span style="background:#feb24c;"></span></li>
+					<li><span style="background:#fd8d3c;"></span></li>
+					<li><span style="background:#f03b20;"></span></li>
+					<li><span style="background:#bd0026;"></span>High</li>
+				</ul>
+			</div>
+		</div>
+		<!-- LEGEND - TEAM -->
+		<div id="legend-2" class="legend-style">
+		<div class="legend-title">Teams 2014</div>
+			<div class="legend-scale">
+				<ul class="legend-labels">
+					<li><span style="background:#d53e4f;"></span>Platform</li>
+					<li><span style="background:#f46d43;"></span>RollCall</li>
+					<li><span style="background:#fdae61;"></span>Engineering</li>
+					<li><span style="background:#fee08b;"></span>COMRADES</li>
+					<li><span style="background:#ffffbf;"></span>MAVC</li>
+					<li><span style="background:#abdda4;"></span>DREAMS</li>
+					<li><span style="background:#66c2a5;"></span>UCHAGUZI</li>
+					<li><span style="background:#3288bd;"></span>Sup. & Engage.</li>
+				</ul>
+			</div>
+		</div>
+		<div class="row">
+			<div class="large-12 columns">
+				<div id="chart-canvas" style="position:relative">
+					<div id="svg-canvas"></div>
+					<div id="gantt-bar-container"></div>
+				</div>
+
+				<!-- TOOLTIPS -->
+				<div id="tooltip"></div>
+
+			</div>
+		</div>
+
+		<script src="plotr.js"></script>
+	</body>
 </html>
 <!--special thx to mhkeller (homg dates in d3), and to aubergene (D3.edu)-->
 <!--auremoser-->
