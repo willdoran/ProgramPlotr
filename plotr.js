@@ -7,7 +7,7 @@
 	var canvas_width = d3.select('#chart-canvas').node().offsetWidth;
 
 	var teamColorScale = d3.scale.ordinal()
-		.domain(['BRCK', 'CrisisNet', 'Crowdmap', 'External Projects', 'MAVC', 'Operations', 'RRI', 'V3'])
+		.domain(['Platform', 'RollCall', 'Engineering', 'COMRADES', 'MAVC', 'DREAMS', 'Sup. & Engage.', 'Sales'])
 		//.range(['#e45f56',' #d75c37','#fff568','#a3d39c','#4aaaa5','#4aaaa5','#334455','#260126'])
 		.range(['#d53e4f', '#f46d43', '#fdae61', '#fee08b', '#ffffbf', '#abdda4', '#66c2a5', '#3288bd']);
 
