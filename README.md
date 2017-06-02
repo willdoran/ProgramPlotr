@@ -1,6 +1,6 @@
 Ushahidi Programs Plotr
 ===========
-This is a visualization tool for looking at key deliverables and milestones milestones for Ushahidi programs. You can see the [Plotr visualization here](http://?????) or [add dates and milestones here](https://docs.google.com/spreadsheets/d/1NXG2znwFFdbyK83wHmN00AEp_t_OMAoRkShicl_y7Wk/edit#gid=0). See below for more information about how to interpret the visualization or enter data.
+This is a visualization tool for looking at key deliverables and milestones milestones for Ushahidi programs. You can see the [Plotr visualization here](http://github.ushahidi.org/ProgramPlotr/) or [add dates and milestones here](https://docs.google.com/spreadsheets/d/1NXG2znwFFdbyK83wHmN00AEp_t_OMAoRkShicl_y7Wk/edit#gid=0). See below for more information about how to interpret the visualization or enter data.
 
 ### About
 This is simple sortable chart for viewing and tracking programmatic deliverables and milestones on a timeline. It is primarily for coordination among Ushahidi programs: especially around shared goals such as trainings, volunteer engagement, and product releases. It is useful for a quick global view of what's going on when and how the milestones/expectations/resourcing need to be managed. This was originally developed by Aurelia Moser ([original repo here](https://github.com/auremoser/pirateplotr)) and I've adopted it for programmatic use.  
@@ -8,7 +8,7 @@ This is simple sortable chart for viewing and tracking programmatic deliverables
 ### How to...
 1. Edit data in the Google Spreadsheet [here](https://docs.google.com/spreadsheets/d/1NXG2znwFFdbyK83wHmN00AEp_t_OMAoRkShicl_y7Wk/edit#gid=0). See the key below for what information to enter in which columns. 
 2. Spreadsheet will update in the chart on a semi-frequent basis, which depends on google. Usually you can refresh the [Plotr visualization](http://?????) every 5 minutes and it will show your changes.
-3. View and Sort the chart! [Plotr visualization here](http://?????)  
+3. View and Sort the chart! [Plotr visualization here](http://github.ushahidi.org/ProgramPlotr/)  
 
 ![Chart](https://?????) 
 
