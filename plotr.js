@@ -290,7 +290,7 @@
 	 * var proxy = 'http://www.enjoy-mondays.com/assets/services/proxy.php?url=';
 	 */
 
-	var csvURL = 'https://docs.google.com/a/ushahidi.com/spreadsheets/d/1NXG2znwFFdbyK83wHmN00AEp_t_OMAoRkShicl_y7Wk/pub?output=csv';
+	var csvURL = 'http://cors.io/?https://docs.google.com/a/ushahidi.com/spreadsheets/d/1NXG2znwFFdbyK83wHmN00AEp_t_OMAoRkShicl_y7Wk/pub?output=csv';
 	
 	d3.csv(csvURL, function(error, csv) {
 		if (error) {
